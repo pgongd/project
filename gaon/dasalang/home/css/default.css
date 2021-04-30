@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+
+/* 초기화 */
+html {overflow-y:scroll}
+
+
+/* 링크 초기화 */
+a{color:#273743; text-decoration:none; }
+a:hover, a:focus {box-shadow: none;}
+/* a:hover {color:#390;} */
+
+/* 여백 초기화 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin:0; padding:0; border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+html, h1, h2, h3, h4, h5, h6, form, fieldset, img, strong {margin:0;padding:0;border:0;vertical-align: baseline;}
+
+
+/* 폰트 초기화 */
+body, input, textarea, select, button, table {font-family:"Noto Sans KR", "나눔 고딕", "Nanum Gothic", "Malgun Gothic","맑은 고딕", "돋움", Dotum; font-size: 100%; }
+
+/* 시맨틱태그 초기화 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+
+ul, dl,dt,dd, ol {margin:0;padding:0;list-style:none}
+legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
+label, input, button, select, img {vertical-align:middle;font-size:1em}
+input, button {margin:0;padding:0;font-family:"Noto Sans KR", "나눔 고딕", "Nanum Gothic", "Malgun Gothic","맑은 고딕", "돋움", Dotum; font-size:1em}
+input[type="submit"]{cursor:pointer}
+button {cursor:pointer}
+
+textarea, select {font-family:"Noto Sans KR", "나눔 고딕", "Nanum Gothic", "Malgun Gothic","맑은 고딕", "돋움", Dotum;font-size:1em}
+select {margin:0}
+p {margin:0;padding:0;word-break:break-all}
+hr {display:none}
+pre {overflow-x:scroll;font-size:1.1em}
+
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+label, input, button, select, img {
+    vertical-align: middle;
+    font-size: 1em;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+}
+
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+}
+
+/* 이탤릭 초기화 */
+em, address {font-style : normal;}
+
+/* 테두리 초기화 */
+img, fieldset {border:0;}
+
+
+/* iconfont */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(../iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+      url(../iconfont/MaterialIcons-Regular.woff) format('woff'),
+      url(../iconfont/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0 !important;
+}
+
+
